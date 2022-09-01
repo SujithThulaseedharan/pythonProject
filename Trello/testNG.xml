@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count = "1" name="trello Test Automation Test Suite" parallel = "methods">
+
+	<listeners>
+		<listener class-name="com.trello.qa.listeners.Listener" />
+		<listener class-name="com.trello.qa.report.Extent" />
+	</listeners>
+	
+
+	<test name="trello  Test Cases">
+        
+	
+	
+		 <classes> 
+			<class name="com.trello.qa.testcases.LoginPageTest"></class>
+			<class name="com.trello.qa.testcases.HomePageTest"></class>
+			<class name="com.trello.qa.testcases.BoardPageTest"></class>
+		
+		</classes>
+	</test>
+</suite>

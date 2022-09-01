@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-05T13:20:42 CEST" name="trello Test Automation Test Suite" finished-at="2022-08-05T13:22:20 CEST" duration-ms="97926">
+    <groups>
+    </groups>
+    <test started-at="2022-08-05T13:20:42 CEST" name="trello  Test Cases" finished-at="2022-08-05T13:22:20 CEST" duration-ms="97926">
+      <class name="com.trello.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:21:54 CEST" name="setUp" finished-at="2022-08-05T13:21:59 CEST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleVerification()[pri:1, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:21:59 CEST" name="loginPageTitleVerification" finished-at="2022-08-05T13:21:59 CEST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:00 CEST" name="tearDown" finished-at="2022-08-05T13:22:01 CEST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:01 CEST" name="setUp" finished-at="2022-08-05T13:22:05 CEST" duration-ms="4070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoVerification()[pri:2, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:05 CEST" name="logoVerification" finished-at="2022-08-05T13:22:05 CEST" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:05 CEST" name="tearDown" finished-at="2022-08-05T13:22:06 CEST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:06 CEST" name="setUp" finished-at="2022-08-05T13:22:10 CEST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginVerification()[pri:3, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:10 CEST" name="loginVerification" finished-at="2022-08-05T13:22:19 CEST" duration-ms="9434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trello.qa.testcases.LoginPageTest@9597028]" started-at="2022-08-05T13:22:19 CEST" name="tearDown" finished-at="2022-08-05T13:22:20 CEST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trello.qa.testcases.LoginPageTest -->
+      <class name="com.trello.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trello.qa.testcases.HomePageTest@4d5d943d]" started-at="2022-08-05T13:20:42 CEST" name="setUp" finished-at="2022-08-05T13:21:04 CEST" duration-ms="21818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewBoard()[pri:1, instance:com.trello.qa.testcases.HomePageTest@4d5d943d]" started-at="2022-08-05T13:21:04 CEST" name="addNewBoard" finished-at="2022-08-05T13:21:14 CEST" duration-ms="9964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewBoard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trello.qa.testcases.HomePageTest@4d5d943d]" started-at="2022-08-05T13:21:14 CEST" name="tearDown" finished-at="2022-08-05T13:21:14 CEST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trello.qa.testcases.HomePageTest -->
+      <class name="com.trello.qa.testcases.BoardPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trello.qa.testcases.BoardPageTest@368f2016]" started-at="2022-08-05T13:21:14 CEST" name="setUp" finished-at="2022-08-05T13:21:46 CEST" duration-ms="31313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createCard()[pri:1, instance:com.trello.qa.testcases.BoardPageTest@368f2016]" started-at="2022-08-05T13:21:46 CEST" name="createCard" finished-at="2022-08-05T13:21:53 CEST" duration-ms="7171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trello.qa.testcases.BoardPageTest@368f2016]" started-at="2022-08-05T13:21:53 CEST" name="tearDown" finished-at="2022-08-05T13:21:54 CEST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trello.qa.testcases.BoardPageTest -->
+    </test> <!-- trello  Test Cases -->
+  </suite> <!-- trello Test Automation Test Suite -->
+</testng-results>
